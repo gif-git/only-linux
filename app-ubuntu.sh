@@ -35,3 +35,7 @@ wget https://repo.skype.com/latest/skypeforlinux-64.rpm
 sudo apt install ./skypeforlinux-64.rpm
 
 sudo apt-get update
+
+sudo apt-get install git
+
+sudo apt-get update
