@@ -12,12 +12,26 @@ sudo echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anyde
 
 sudo apt-get update
 
-sudo apt-get install anydesk
+sudo apt-get install anydesk -y
 
 sudo apt-get update
 
-sudo apt-get install openssh-server
+sudo apt-get install openssh-server -y
 
 sudo apt-get update
 
-sudo apt-get install vim
+sudo apt-get install vim -y
+
+sudo apt-get update
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
+sudo apt-get update
+
+wget https://repo.skype.com/latest/skypeforlinux-64.rpm
+
+sudo apt install ./skypeforlinux-64.rpm
+
+sudo apt-get update
