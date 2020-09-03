@@ -1,0 +1,38 @@
+To change a host name:
+    sudo hostname uppili-desktop
+    sudo vi /etc/hostname 
+    sudo vi /etc/hosts
+    hostname
+
+remove user:
+    userdel -fr uppili
+
+vi /etc/sudours.d/uppili
+    uppili  ALL=(ALL:ALL) NOPASSWD:/usr/sbin/openvpn, /bin/sh, /usr/sbin/killall, /usr/bin/killall
+
+sudors (devops user is sudors):
+    sudo vim /etc/sudoers.d/devops
+    devops   ALL=(ALL:ALL) NOPASSWD:ALL
+
+To kill prossess use top command:
+ top
+    check max memory use= shift+m
+    to kill PID  = k
+    to force kill = 9 or normal kill 15
+    to come out from top = q or esc q 
+
+tail -f /var/log/apache2/www.poweredbyu_non_ssl_access.log
+tail -f /var/log/newrelic/newrelic-daemon.log
+
+ps -ef | grep newrelic-daemon
+ps -ef | grep 
+
+New relic file:
+vi /etc/php/5.6/apache2/conf.d/20-newrelic.ini
+
+sudo apt-get --purge remove gimp && sudo apt-get remove gimp 
+sudo apt-get autoremove && sudo apt-get clean
+
+sudo apt-get --purge remove puppetmaster && sudo apt-get autoremove && sudo apt-get clean
+
+
