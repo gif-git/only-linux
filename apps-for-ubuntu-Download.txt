@@ -1,1 +1,1 @@
-time date in top bar in ubuntu 18.04 dcnf editor
+time date in top bar in ubuntu 18.04 dconf editor
