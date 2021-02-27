@@ -1,1 +1,6 @@
+# show time in ubuntu 18.04
 https://www.fosslinux.com/4231/how-to-show-date-and-complete-time-in-the-ubuntu-top-panel.htm#:~:text=Step%202)%20Enter%20the%20following,enter%20to%20install%20dconf%2Deditor.&text=Step%203)%20Go%20to%20%E2%80%9CActivities,launch%20%E2%80%9Cdconf%2Deditor%E2%80%9D.&text=Step%204)%20Carefully%20navigate%20to,clock%2Dshow%2Dseconds%E2%80%9D
+
+sudo apt install gnome-tweak-tool
+
+
