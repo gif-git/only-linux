@@ -1,7 +1,8 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install network-manager-openvpn-gnome -y
+sudo apt-get install network-manager-openvpn-gnome -Y
+sudo apt-get install curl -Y
 
 sudo apt-get update
 sudo wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
