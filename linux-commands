@@ -29,10 +29,24 @@ ps -ef | grep
 
 New relic file:
 vi /etc/php/5.6/apache2/conf.d/20-newrelic.ini
+_____________________________check the OS name and version
+lsb_release -a # 
+cat /etc/os-release #
+hostnamectl # hostname with os version
+uname -r # linux kernel version
 
-sudo apt-get --purge remove gimp && sudo apt-get remove gimp 
-sudo apt-get autoremove && sudo apt-get clean
-
-sudo apt-get --purge remove puppetmaster && sudo apt-get autoremove && sudo apt-get clean
-
-
+_____________________________ not working fine 
+#sudo apt-get --purge remove gimp && sudo apt-get remove gimp 
+#sudo apt-get autoremove && sudo apt-get clean
+#sudo apt-get --purge remove puppetmaster && sudo apt-get autoremove && sudo apt-get clean
+_____________________________
+____________for remove application use the following
+Make sure the application name in terminal, Ex: chrome browser name in terminal is google-chrome-stable
+sudo apt-get remove <application name>
+Ex:
+sudo apt-get remove google-chrome-stable # ubuntu 14.04
+sudo apt remove google-chrome-stable # ubuntu 16.04 or latest version of os 
+_____________________________Disk usage or disk size
+df -hT
+du -sh * # disk space of corrent directory 
+ncdu # show more detail about the working dir $ importent q for quit 
