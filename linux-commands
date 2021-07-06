@@ -34,7 +34,7 @@ lsb_release -a #
 cat /etc/os-release #
 hostnamectl # hostname with os version
 uname -r # linux kernel version
-
+cat /etc/issue
 _____________________________ not working fine 
 #sudo apt-get --purge remove gimp && sudo apt-get remove gimp 
 #sudo apt-get autoremove && sudo apt-get clean
