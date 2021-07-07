@@ -50,3 +50,9 @@ _____________Disk usage or disk size
 df -hT
 du -sh * # disk space of corrent directory 
 ncdu # show more detail about the working dir $ importent q for quit 
+_____________how to conver .pem to .pkk
+url: 
+To install putty in ubuntu:
+sudo apt install putty-tools
+how to conver .pem to .pkk:
+puttygen  <mykey>.pem -o <mykey>.ppk

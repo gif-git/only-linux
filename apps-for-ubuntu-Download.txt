@@ -1,1 +1,6 @@
 time date in top bar in ubuntu 18.04 dconf editor
+
+To install putty in ubuntu:
+sudo apt install putty
+how to conver .pem to .pkk:
+puttygen  <mykey>.pem -o <mykey>.ppk
