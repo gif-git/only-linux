@@ -14,6 +14,9 @@ sudors (devops user is sudors):
     sudo vim /etc/sudoers.d/devops
     devops   ALL=(ALL:ALL) NOPASSWD:ALL
 
+Giving permission for standard user to (gedit, /etc/hosts, vi 
+rekha ALL=(ALL:ALL) NOPASSWD:/usr/bin/vi, /usr/bin/gedit, /etc/hosts, /usr/bin/nano, /etc/hosts
+
 To kill prossess use top command:
  top
     check max memory use= shift+m
