@@ -1,21 +1,22 @@
 To change a host name:
-    sudo hostname uppili-desktop
-    sudo vi /etc/hostname 
-    sudo vi /etc/hosts
-    hostname
+    sudo hostname giftson-desktop
+    sudo vi /etc/hostname # edit the file with the name giftson-desktop
+    sudo vi /etc/hosts  # edit the file with the name giftson-desktop
+    hostname  # check this command if the system name will be changed or not 
 
 remove user:
-    userdel -fr uppili
+    userdel -fr giftson
 
-vi /etc/sudours.d/uppili
-    uppili  ALL=(ALL:ALL) NOPASSWD:/usr/sbin/openvpn, /bin/sh, /usr/sbin/killall, /usr/bin/killall
+Give the sudo access to the user for some commands
+vi /etc/sudours.d/giftson
+    giftson  ALL=(ALL:ALL) NOPASSWD:/usr/sbin/openvpn, /bin/sh, /usr/sbin/killall, /usr/bin/killall
 
 sudors (devops user is sudors):
-    sudo vim /etc/sudoers.d/devops
-    devops   ALL=(ALL:ALL) NOPASSWD:ALL
+    sudo vim /etc/sudoers.d/devops  # add the following line to the file to get sudo full permission 
+    devops   ALL=(ALL:ALL) NOPASSWD:ALL 
 
 Giving permission for standard user to (gedit, /etc/hosts, vi 
-rekha ALL=(ALL:ALL) NOPASSWD:/usr/bin/vi, /usr/bin/gedit, /etc/hosts, /usr/bin/nano, /etc/hosts
+gitson ALL=(ALL:ALL) NOPASSWD:/usr/bin/vi, /usr/bin/gedit, /etc/hosts, /usr/bin/nano, /etc/hosts
 
 To kill prossess use top command:
  top
@@ -24,7 +25,7 @@ To kill prossess use top command:
     to force kill = 9 or normal kill 15
     to come out from top = q or esc q 
 
-tail -f /var/log/apache2/www.poweredbyu_non_ssl_access.log
+tail -f /var/log/apache2/www.domainname_non_ssl_access.log
 tail -f /var/log/newrelic/newrelic-daemon.log
 
 ps -ef | grep newrelic-daemon
@@ -47,8 +48,8 @@ ____________for remove application use the following
 Make sure the application name in terminal, Ex: chrome browser name in terminal is google-chrome-stable
 sudo apt-get remove <application name>
 Ex:
-sudo apt-get remove google-chrome-stable # ubuntu 14.04
-sudo apt remove google-chrome-stable # ubuntu 16.04 or latest version of os 
+sudo apt-get remove google-chrome-stable # ubuntu 22.04
+sudo apt remove google-chrome-stable # ubuntu 22.04 or latest version of os 
 _____________Disk usage or disk size
 df -hT
 du -sh * # disk space of corrent directory 
