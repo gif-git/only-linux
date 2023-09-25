@@ -13,7 +13,7 @@ sudo apt-get install anydesk -y
 
 sudo apt-get update
 sudo apt-get install openssh-server -y
-
+sudo apt-get install unrar
 sudo apt-get update
 sudo apt-get install vim -y
 
