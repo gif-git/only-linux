@@ -1,0 +1,6 @@
+
+
+how to fix not secure pfsense dashboard on browser
+https://coygeek.com/docs/pfsense-ssl/#:~:text=To%20fix%20this%2C%20we'll,between%20your%20browser%20and%20pfsense.
+
+sky-pfSense.skyopus-localdomain
