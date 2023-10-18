@@ -3,4 +3,6 @@ https://www.fosslinux.com/4231/how-to-show-date-and-complete-time-in-the-ubuntu-
 
 sudo apt install gnome-tweak-tool
 
+https://www.youtube.com/watch?v=TIHf-X5rDU4&ab_channel=5-MinuteDevOps # install keepass
+
 
