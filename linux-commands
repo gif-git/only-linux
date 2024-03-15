@@ -75,3 +75,8 @@ Alternatively just open Terminal and run
 
 gsettings set org.gnome.desktop.calendar show-weekdate true
 ___________
+# To create ssh key on ubutnu 14.04 version only 
+ssh-keygen -t ecdsa -b 256
+___________
+# To create ssh key on ubuntu version:
+ssh-keygen -C "username@domain-name"
