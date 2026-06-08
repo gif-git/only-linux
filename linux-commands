@@ -6,8 +6,10 @@ To change a host name:
 
 remove user:
     userdel -fr giftson
+Create a new user:
+    adduser giftson
 
-Give the sudo access to the user for some commands
+Give the sudo access to the user for some commands only
 vi /etc/sudours.d/giftson
     giftson  ALL=(ALL:ALL) NOPASSWD:/usr/sbin/openvpn, /bin/sh, /usr/sbin/killall, /usr/bin/killall
 
